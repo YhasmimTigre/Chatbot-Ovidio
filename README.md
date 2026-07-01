@@ -114,9 +114,10 @@ Acesse `http://localhost:8000` no navegador e comece a conversar com Ovídio.
 | Papel | Modelo | Onde roda |
 |---|---|---|
 | Ovídio (narrador) | `mistral-nemo` | Local via Ollama |
-| Juiz (avaliador) | `llama-3.3-70b-versatile` | Groq (nuvem, gratuito) |
+| Juiz (avaliador) | `llama-3.3-70b-versatile` *| Groq (nuvem, gratuito) |
 | Embeddings (busca) | `all-MiniLM-L6-v2` | Local via HuggingFace |
 
+> Nota: lllama-3.3-70b-versatile foi descomissionado em 01/07/26, utilize GPT OSS 120B ou Qwen3.6 27B em seu lugar.
 ---
 
 ## Variáveis de ambiente
